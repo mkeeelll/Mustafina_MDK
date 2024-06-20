@@ -1,0 +1,55 @@
+﻿<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="contacts.css" rel="stylesheet" />
+    <title>Priutik_regesrtation</title>
+</head>
+
+<body>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="info">
+                <div class="info_right">
+                    <form action="#">
+                        <h3>Регистрация</h3>
+                        <fieldset>
+                          <legend>Личная информация</legend>
+                            <label for="name">Имя/Логин*</label>
+                            <input id="name" minlenght="5" maxlength="20" required><br>
+                            <label for="date">Дата рождения*</label>
+                            <input type="date" name="date" id="data" required><br>
+                            <label for="tel">Номер телефона*</label>
+                            <input type="tel" name="tel" id="tel" required placeholder="Формат: +712345678910 или 10002" pattern="(\+7\[0-9]{9,13}|[0-9]{5,10})"><br>
+                            <label for="email">Email*</label>
+                            <input id="email" required maxlength="1024"><br>
+                                Пол:
+                            <input type="radio" value="М" checked name="gender"/>M
+                            <input type="radio" value="Ж" name="gender"/>Ж <br>
+                            У меня уже есть питомец <input type="checkbox" name="pet"/><br>
+                            <label for="about">О себе</label><br>
+                            <textarea maxlength="1024" placeholder="Напишите что-нибудь о себе"></textarea><br>
+                            <label for="Pass">Введите пароль*</label>
+                            <input type="password" name="pass" id="Pass" minlenght="10" maxlength="1024" required>
+                        </fieldset>
+                        <p name="reg"><input type="submit" value="Зарегистрироваться"></p>
+                        <p class="sbr"><input type="reset" value="Сбросить"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_text">
+                2024 / Mustafina Ksenia
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

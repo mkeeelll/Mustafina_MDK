@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align:center;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+
+.img {
+    margin-right: 70px;
+    margin-left: 50px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    /*позиционирование по центру*/
+}
+
+
+p {
+    margin-bottom: 40px;
+}
+
+section {
+    padding-top: 113px;
+    padding-bottom: 113px
+}
+
+.info {
+    display:flex;
+    justify-content: center;
+}
+
+.info p {
+	font-weight: 400;
+	text-align:center;
+	line-height: 1.62em;
+} 
+
+.info_right {
+    text-align: center;
+}
+
+.photo {
+    width:70px;
+    height:70px;
+}
+
+.phone {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color:black;
+}
+
+.pochta {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color:black;
+}
+
+
+fieldset {
+    margin-bottom: 15px;
+    width:300px;
+	height:435px;
+  }
+  
+  legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 30px;
+  }
+  
+  label {
+    width: 110px;
+    display: inline;
+    vertical-align: top;
+    margin: 6px;
+  }
+
+input {
+	width: 270px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+input[name="gender"] {
+    width: 60px;
+    display: inline-table;  
+  }
+
+textarea {
+    font-family: 'Oswald', sans-serif;
+    resize: none;
+    margin-bottom: 5px;
+    width: 270px;
+}
+
+input[name=pet] {
+    width: 60px;
+}
+
+p[name=reg] {
+    margin-bottom: 0px;
+}
+
+  input[type=submit] {
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #000000;
+    color:#000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  
+  .input[type=submit]:focus {
+    background: #000000;
+    color: #fff;
+}
+
+input[type=reset] {
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #000000;
+    color:#000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  
+  .input[type=reset]:focus {
+    background: #000000;
+    color: #fff;
+}
+
+.footer {
+    background: #6FD391;
+}
+
+.footer_text {
+    font-size: 15px;
+	display: flex;
+	padding: 114px;
+    color: #fff;
+}
+
+.footer-text p {
+	margin-right: 67px;
+}
